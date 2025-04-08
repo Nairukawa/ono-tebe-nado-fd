@@ -143,9 +143,7 @@
   list-style: none;
 }
 
-.card_type_film,
-.card_type_book,
-.card_type_picture {
+.card_type {
   position: absolute;
   height: 100%;
   z-index: -1;
@@ -234,6 +232,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   padding: 0 50px;
+  margin-bottom: 82px;
 }
 
 .footer__menu {
@@ -269,4 +268,8 @@
 
 .footer__social-list-item {
   list-style: none;
+}
+
+.footer__link {
+    list-style: none;
 }
