@@ -42,7 +42,7 @@
   position: relative;
   min-height: 757px;
   margin-bottom: 180px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
   padding: 0 50px;
