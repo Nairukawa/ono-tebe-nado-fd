@@ -3,7 +3,6 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px 96px 50px;
-  min-height: 293px;
 }
 
 .header__links-list {
@@ -60,21 +59,21 @@
 }
 
 .aligned-text {
-  position: absolute;
+  position: relative;
   letter-spacing: 0.3em;
-  inset: 165px 764px 477px 50px;
+  inset: 165px 50px;
 }
 
 .aligned-text_center {
-  position: absolute;
+  position: relative;
   letter-spacing: 0.3em;
-  inset: 300px 380px 342px 380px;
+  inset: 300px 40px;
 }
 
 .aligned-text_right {
-  position: absolute;
+  position: relative;
   letter-spacing: 0.3em;
-  inset: 435px 50px 207px 663px;
+  inset: 320px 665px;
 }
 
 .overlay {
@@ -86,29 +85,29 @@
 }
 
 .cover__description-text {
-  position: absolute;
+  position: relative;
   color: #fff;
   line-height: 28px;
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18px;
-  inset: 668px 413px 61px 50px;
+  inset: 438px 50px;
   z-index: 1;
 }
 
 .bet-button {
-  position: absolute;
-  inset: 656px 50px 50px 794px;
-  z-index: 1;
+  position: relative;
   color: #fff;
+  padding: 12px 32px;
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid #fff;
+  inset: 397px 793px;
+  z-index: 1;
 }
 
 .lots {
-  min-height: 723px;
   margin: 0 24px;
 }
 
@@ -122,14 +121,13 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
 .lots__card-list-item {
   position: relative;
   list-style: none;
-  min-width: 334px;
-  min-height: 596px;
 }
 
 .card {
@@ -137,6 +135,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  width: 334px;
+  height: 596px;
 }
 
 .card__link {
@@ -180,7 +180,6 @@
 .about {
   display: grid;
   grid-template-columns: 359px 1fr;
-  min-height: 595px;
   margin: 120px 24px 180px 24px;
 }
 
@@ -204,6 +203,7 @@
   flex-direction: column;
   justify-content: flex-end;
   gap: 100px;
+  padding-top: 163px;
 }
 
 .about__title {
@@ -225,6 +225,7 @@
 }
 
 .logo {
+  padding-top: 30px;
   margin-left: 47px;
   margin-top: 35px;
 }
@@ -232,17 +233,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  min-height: 180px;
   padding: 0 50px;
-}
-
-.address__footer {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  line-height: 24px;
-  font-style: normal;
-  text-underline-offset: 4px;
 }
 
 .footer__menu {
